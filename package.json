@@ -1,0 +1,23 @@
+{
+  "name": "schemas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "ts": "tsx scripts/genTypes ./schemas",
+    "id": "tsx scripts/cuid ./example"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "cuid": "^3.0.0",
+    "json-schema-to-typescript": "^14.0.4"
+  }
+}

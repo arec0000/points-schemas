@@ -1,0 +1,12 @@
+{
+  "yaml.schemas": {
+    "./schemas/publishedArticles.schema.json": "publishedArticles.yaml",
+    "./schemas/articleDashboard.schema.json": "articleDashboard.yaml",
+    "./schemas/article.schema.json": "article.yaml",
+    "./schemas/publishedQuests.schema.json": "publishedQuests.yaml",
+    "./schemas/quest.schema.json": "quest.yaml",
+    "./schemas/subquest.schema.json": "subquest.yaml",
+    "./schemas/task.schema.json": "task.yaml",
+    "./schemas/storiesList.schema.json": "storiesList.yaml"
+  }
+}
