@@ -38,7 +38,7 @@
           "labelColor": { "$ref": "#/definitions/color" },
           "video": { "type": "string" },
           "poster": { "type": "string" },
-          "bacground": { "type": "string" }
+          "background": { "type": "string" }
         }
       },
       "progress": {
