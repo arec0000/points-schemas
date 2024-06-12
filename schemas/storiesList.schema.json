@@ -20,8 +20,8 @@
               "required": ["x", "y"],
               "additionalProperties": false,
               "properties": {
-                "x": { "enum": ["start", "center", "end"] },
-                "y": { "enum": ["start", "center", "end"] }
+                "x": { "enum": ["left", "center", "right"] },
+                "y": { "enum": ["top", "center", "bottom"] }
               }
             },
             "alt": { "type": "string" },
@@ -74,8 +74,8 @@
         "required": ["x", "y"],
         "additionalProperties": false,
         "properties": {
-          "x": { "enum": ["start", "center", "end"] },
-          "y": { "enum": ["start", "center", "end"] }
+          "x": { "enum": ["left", "center", "right"] },
+          "y": { "enum": ["top", "center", "bottom"] }
         }
       },
       "loop": { "type": "boolean" },
