@@ -46,7 +46,10 @@
         "additionalProperties": false,
         "description": "Свойства прогресс бара",
         "properties": {
-          "color": {
+          "height": {
+            "oneOf": [{ "$ref": "#/definitions/size" }, { "const": "xxs" }]
+          },
+          "inactiveColor": {
             "type": "string",
             "description": "Цвет неактивной части прогресса, по умолчанию серый"
           },
